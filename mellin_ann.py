@@ -130,7 +130,7 @@ class PDFANN:
 
     def normal_factor(self):
         """
-        :return: the zeroth Mellin moment of the pdf, which constitutes the normalization factor for the ANN output.
+        :return: the zeroth Mellin moment of the pdf, which constituts the normalization factor for the ANN output.
                  The integral is approximated using the Boole's rule
         """
         coeff = np.ones(self.mesh)
